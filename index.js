@@ -142,8 +142,8 @@ function greeting(first,last){
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-  //console.log(consume(2, 2, add)); // 4
-  //console.log(consume(10, 16, multiply)); // 160
+  console.log(consume(2, 2, add)); // 4
+  console.log(consume(10, 16, multiply)); // 160
   //console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
   
   
@@ -201,14 +201,14 @@ class CuboidMakerTwo{
     this.height = attributes.height;
   }
 
-Volume(){
-  return this.length * this.width * this.height
-}
-
+  volume() {
+    return this.length * this.width * this. height;
+  }
 surfaceArea(){
   return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
 }
 }
+
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
